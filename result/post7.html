@@ -1,0 +1,81 @@
+<html>
+<head>
+<style>
+div { font-color: white;}
+.first_div {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    background-color: #808080;
+}
+.second_div {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    background-color: #D0D0D0;
+}
+
+ul {
+    border: 1px solid black;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+
+}
+li:hover{
+    background:#A5A5A5 ;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+</style>
+</head>
+<body>
+<div class="first_div"> <h1 align=center > POST 7</h1> 	 </div>
+<div class="second_div"> 
+    <h3 align=center > Complete Post </h3> 
+	You can make a deep copy serialization without creating some files. Copy: Restore:
+  <p>
+    ByteArrayOutputStream bos = new ByteArrayOutputStream();ObjectOutputStream oos = new ObjectOutputStream(bos);oos.writeObject(object);oos.flush();oos.close();bos.close();byte[] byteData = bos.toByteArray();; ByteArrayInputStream bais = new ByteArrayInputStream(byteData);(Object) object = (Object) new ObjectInputStream(bais).readObject();
+  </p>
+  
+</div> 
+
+<div class="second_div"> 
+<h3 align=center >Top 10 Relevant posts </h3>
+</div>
+
+<ul>
+  
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Streams">https://en.wikibooks.org/wiki/Java_Programming/Streams</a> </p> <p>Input streams acquire bytes for our programmed java application/program (e.g. a file, an array, a keyboard or monitor, etc.). InputStream is an abstract class that represents a source of byte data. It has a read() method, which returns the next byte in the stream and a close() method, which should be called by a program when that program is done with the stream. The read() method is overloaded, and can take a byte array to read to. It has a skip() method that can skip a number of bytes, and an available() method that a program can use to determine the number of bytes immediately available to be read, as not all the data is necessarily ready immediately. As an abstract class, it cannot be instantiated, but describes the general behavior of an input stream. A few examples of concrete subclasses would be ByteArrayInputStream, which reads from a byte array, and FileInputStream, which reads byte data from a file.
+ </p></li>
+
+  <li> <p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Streams">https://en.wikibooks.org/wiki/Java_Programming/Streams</a> </p> <p>Output Streams direct streams of bytes outwards to the environment from our program or application. OutputStream is an abstract class which is the destination counterpart of InputStream. OutputStream has a write() method which can be used to write a byte to the stream. The method is overloaded, and can take an array as well. A close() method closes the stream when the application is finished with it, and it has a flush() method. The stream may wait until it has a certain amount before it writes it all at once for efficiency. If the stream object is buffering any data before writing it, the flush() method will force it to write all of this data. Like InputStream, this class cannot be instantiated, but has concrete subclasses that parallel those of InputStream, eg ByteArrayOutputStream, FileOutputStream, etc.</p></li>
+  
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a> </p> <p>Normally, a minor change to the class can cause the serialization to fail. You can still allow the class to be loaded by defining the serialization version id:</p></li>
+
+  <li> <p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a> </p> <p>Normally, a minor change to the class can cause the serialization to fail. You can still allow the class to be loaded by defining the serialization version id:</p></li>
+
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a> </p> <p> Java has built-in support for serialization, using the Serializable interface; however, a class must first implement the Serializable interface.</p> </li>
+
+  <li> <p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a> </p> <p>If the object needs to write or provide a replacement object during serialization, it needs to implement the following two methods, with any access specifier:</p> </li>
+
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Object_Oriented_Programming">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a> </p> <p>Serialization is converting an object to a stream of bytes that can then be saved to a file or transmitted over a network.</p></li>
+
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a> </p> <p>Java has built-in support for serialization, using the Serializable interface; however, a class must first implement the Serializable interface.</p></li>
+
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a><p>If the object needs to write or provide a replacement object during serialization, it needs to implement the following two methods, with any access specifier:</p> </li>
+
+  <li><p> LINK: <a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a> </p> <p>In general there are four constructor types: default, non-default, copy, and cloning.</p> </li>
+  
+</ul>
+</body>	
