@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.a {background-color: grey; display: block; padding: 8px 0 8px 16px;}
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display:inline-block;
+}
+
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover  {background: #555; font-size: 150%;}
+ul li:hover ul {display: block; font-size: 150%;}
+ul li ul {
+  position: absolute;
+  width: 800px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666; font-size: 150%;}
+</style>
+</head>
+<body>
+<div>
+    <p align = center>Hovering the Post will indicate the hyperlinks containing the top 10 relevant content. Click on each post to know the complete text </p>
+    <p align = center> <b>How is indexing done? </b> ->The Hyperlinks in the Java Programming wiki-books page are crawled. The text in the paragraph "p" tag are indexed using Lucene. For ease of purpose, the hyperlink which contains the text is shown. The indexed content includes code fragment and plain text. </p>
+    <p align = center> <b>http://tagme.di.unipi.it/ </b> -> Used for pruning the post.The post contains conversation. It is pruned to keywords </p>
+
+</div>
+<div class ="a">
+  
+ <ul>
+    <li >
+      <a href="result/post1.html" title="Click on this HyperLink">Post 1</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types">https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview">https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Defining_Classes">https://en.wikibooks.org/wiki/Java_Programming/Defining_Classes</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview">https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types">https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/ArrayList">https://en.wikibooks.org/wiki/Java_Programming/ArrayList</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Collection">https://en.wikibooks.org/wiki/Java_Programming/Collection</a></li>
+        
+      </ul>
+    </li>
+  </ul>
+<ul>
+    <li>
+      <a href="result/post2.html">Post 2</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Applets/User_Interface">https://en.wikibooks.org/wiki/Java_Programming/Applets/User_Interface</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program">https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program">https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Interfaces">https://en.wikibooks.org/wiki/Java_Programming/Interfaces</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Exceptions">https://en.wikibooks.org/wiki/Java_Programming/Exceptions</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Object_Oriented_Programming">https://en.wikibooks.org/wiki/Object_Oriented_Programming</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post3.html">Post3</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Keywords">https://en.wikibooks.org/wiki/Java_Programming/Keywords</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Keywords">https://en.wikibooks.org/wiki/Java_Programming/Keywords</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program">https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Scope">https://en.wikibooks.org/wiki/Java_Programming/Scope</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post4.html">Post4</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Object_Oriented_Programming">https://en.wikibooks.org/wiki/Object_Oriented_Programming</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Inheritance">https://en.wikibooks.org/wiki/Java_Programming/Inheritance</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Object_Oriented_Programming">https://en.wikibooks.org/wiki/Object_Oriented_Programming</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Interfaces">https://en.wikibooks.org/wiki/Java_Programming/Interfaces</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Reflection/Dynamic_Class_Loading">https://en.wikibooks.org/wiki/Java_Programming/Reflection/Dynamic_Class_Loading</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Java_Overview">https://en.wikibooks.org/wiki/Java_Programming/Java_Overview</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/ArrayList">https://en.wikibooks.org/wiki/Java_Programming/ArrayList</a></li>
+
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post5.html">Post5</a>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">https://en.wikipedia.org/wiki/Java_(programming_language)</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">https://en.wikipedia.org/wiki/Java_(programming_language)</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program">https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Keywords">https://en.wikibooks.org/wiki/Java_Programming/Keywords</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Keywords">https://en.wikibooks.org/wiki/Java_Programming/Keywords</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Keywords">https://en.wikibooks.org/wiki/Java_Programming/Keywords</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post6.html">Post6</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types">https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types">https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Keywords">https://en.wikibooks.org/wiki/Java_Programming/Keywords</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types">https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post7.html">Post7</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Streams">https://en.wikibooks.org/wiki/Java_Programming/Streams</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Streams">https://en.wikibooks.org/wiki/Java_Programming/Streams</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle"> https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Object_Oriented_Programming">https://en.wikibooks.org/wiki/Object_Oriented_Programming</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post8.html">Post8</a>
+      <ul>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Annotations/Introduction">https://en.wikibooks.org/wiki/Java_Programming/Annotations/Introduction</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/History">https://en.wikibooks.org/wiki/Java_Programming/History</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview">https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Installation">https://en.wikibooks.org/wiki/Java_Programming/Installation</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Installation">https://en.wikibooks.org/wiki/Java_Programming/Installation</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="result/post9.html">Post9</a>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">https://en.wikipedia.org/wiki/Java_(programming_language)</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Java_Programming/Client_Server">https://en.wikibooks.org/wiki/Java_Programming/Client_Server</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">https://en.wikipedia.org/wiki/Java_(programming_language)</a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/JavaSpaceshttps://en.wikibooks.org/wiki/Java_Programming/JavaSpaces">https://en.wikibooks.org/wiki/Java_Programming/JavaSpaces </a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/Client_Server"> https://en.wikibooks.org/wiki/Java_Programming/Client_Server</a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/Q%26A"> https://en.wikibooks.org/wiki/Java_Programming/Q%26A</a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version </a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/Java_Overview"> https://en.wikibooks.org/wiki/Java_Programming/Java_Overview</a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/Remote_Method_Invocation"> https://en.wikibooks.org/wiki/Java_Programming/Remote_Method_Invocation</a></li>
+        <li> <a href ="https://en.wikibooks.org/wiki/Java_Programming/Remote_Method_Invocation"> https://en.wikibooks.org/wiki/Java_Programming/Remote_Method_Invocation</a></li>
+
+      </ul>
+    </li>
+  </ul>
+
+ <ul>
+    <li>
+      <a href="result/post10.html">Post10</a>
+      <ul>
+          <li> <a href ="https://en.wikibooks.org/wiki/Object_Oriented_Programming" > https://en.wikibooks.org/wiki/Object_Oriented_Programming</a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Print_versionhttps://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version </a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types"> https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types </a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Print_version"> https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Nested_Classes"> https://en.wikibooks.org/wiki/Java_Programming/Nested_Classes</a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Print_version"> https://en.wikibooks.org/wiki/Java_Programming/Print_version</a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle">https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle </a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Print_version">https://en.wikibooks.org/wiki/Java_Programming/Print_version </a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Java_Programming/Methods"> https://en.wikibooks.org/wiki/Java_Programming/Methods</a></li>
+          <li> <a href = "https://en.wikibooks.org/wiki/Object_Oriented_Programming"> https://en.wikibooks.org/wiki/Object_Oriented_Programming</a></li>
+
+      </ul>
+    </li>
+ </ul>   
+</div>
+
+</body>
+</html>
