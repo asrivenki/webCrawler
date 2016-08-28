@@ -1,0 +1,52 @@
+ java implement a deep object copy function  cloned reference
+
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The java.lang.Object.clone() method returns a new object that is a copy of the current object. Classes must implement the marker interface java.lang.Cloneable to indicate that they can be cloned.
+doc=942 score=0.9136693 shardIndex=-1
+
+Classes, Objects and Types - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+The java.lang.Object.clone() method returns a new object that is a copy of the current object. Classes must implement the marker interface java.lang.Cloneable to indicate that they can be cloned.
+doc=2436 score=0.9136693 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Java has the concepts of cloning object, and the end results are similar to copy constructor. Cloning an object is faster than creation with the new keyword, because all the object memory is copied at once to destination cloned object. This is possible by implementing the Cloneable interface, which allows the method Object.clone() to perform a field-by-field copy.
+doc=923 score=0.6466773 shardIndex=-1
+
+Classes, Objects and Types - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+Java has the concepts of cloning object, and the end results are similar to copy constructor. Cloning an object is faster than creation with the new keyword, because all the object memory is copied at once to destination cloned object. This is possible by implementing the Cloneable interface, which allows the method Object.clone() to perform a field-by-field copy.
+doc=2417 score=0.6466773 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Note that only mutable objects needs to be cloned. References to unchangeable objects such as String be used in the cloned object without worry.
+doc=1443 score=0.34120497 shardIndex=-1
+
+Object Lifecycle - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle
+Note that only mutable objects needs to be cloned. References to unchangeable objects such as String be used in the cloned object without worry.
+doc=2936 score=0.34120497 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+this is a Java keyword. It contains the current object reference.
+doc=1174 score=0.3405659 shardIndex=-1
+
+Keywords - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Keywords
+this is a Java keyword. It contains the current object reference.
+doc=2798 score=0.3405659 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+When an object is created, a reference to the object is also created. The object can not be accessed directly in Java, only through this object reference. This object reference has a type assigned to it. We need this type when passing the object reference to a method as a parameter. Java does strong type checking.
+doc=924 score=0.28861812 shardIndex=-1
+
+Classes, Objects and Types - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+When an object is created, a reference to the object is also created. The object can not be accessed directly in Java, only through this object reference. This object reference has a type assigned to it. We need this type when passing the object reference to a method as a parameter. Java does strong type checking.
+doc=2418 score=0.28861812 shardIndex=-1

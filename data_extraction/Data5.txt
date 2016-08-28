@@ -1,0 +1,51 @@
+Abstract method classes Java  static void main String args  abstract class
+
+Java (programming language) - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Java_(programming_language)
+The main method must accept an array of String objects. By convention, it is referenced as args although any other legal identifier name can be used. Since Java 5, the main method can also use variable arguments, in the form of public static void main(String... args), allowing the main method to be invoked with an arbitrary number of String arguments. The effect of this alternate declaration is semantically identical (the args parameter is still an array of String objects), but it allows an alternative syntax for creating and passing the array.
+doc=123 score=1.2466121 shardIndex=-1
+
+Java (programming language) - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Java_(programming_language)
+The Java launcher launches Java by loading a given class (specified on the command line or as an attribute in a JAR) and starting its public static void main(String[]) method. Stand-alone programs must declare this method explicitly. The String[] args parameter is an array of String objects containing any arguments passed to the class. The parameters to main are often passed by means of a command line.
+doc=124 score=1.2036693 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+  public static void main(String[] args) {     Distance dist = new Distance(       intValue(args[0]), intValue(args[1]),       intValue(args[2]), intValue(args[3]));     dist.printDistance();   }
+doc=482 score=1.0758555 shardIndex=-1
+
+Understanding a Java Program - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program
+  public static void main(String[] args) {     Distance dist = new Distance(       intValue(args[0]), intValue(args[1]),       intValue(args[2]), intValue(args[3]));     dist.printDistance();   }
+doc=1979 score=1.0758555 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+abstract is a Java keyword. It can be applied to a class and methods. An abstract class cannot be directly instantiated. It must be placed before the variable type or the method return type. It is recommended to place it after the access modifier and after the static keyword. A non-abstract class is a concrete class. An abstract class cannot be final.
+doc=967 score=1.0014089 shardIndex=-1
+
+Keywords - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Keywords
+abstract is a Java keyword. It can be applied to a class and methods. An abstract class cannot be directly instantiated. It must be placed before the variable type or the method return type. It is recommended to place it after the access modifier and after the static keyword. A non-abstract class is a concrete class. An abstract class cannot be final.
+doc=2591 score=1.0014089 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+static is a Java keyword. It can be applied to a field, a method or an inner class. A static field, method or class has a single instance for the whole class that defines it, even if there is no instance of this class in the program. For instance, a Java entry point (main()) has to be static. A static method cannot be abstract. It must be placed before the variable type or the method return type. It is recommended to place it after the access modifier and before the final keyword:
+doc=1142 score=0.9366569 shardIndex=-1
+
+Keywords - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Keywords
+static is a Java keyword. It can be applied to a field, a method or an inner class. A static field, method or class has a single instance for the whole class that defines it, even if there is no instance of this class in the program. For instance, a Java entry point (main()) has to be static. A static method cannot be abstract. It must be placed before the variable type or the method return type. It is recommended to place it after the access modifier and before the final keyword:
+doc=2766 score=0.9366569 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+An abstract method cannot be final, static nor native. Either you instantiate a concrete sub-class, either you instantiate the abstract class by implementing its abstract methods alongside a new statement:
+doc=969 score=0.83716816 shardIndex=-1
+
+Keywords - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Keywords
+An abstract method cannot be final, static nor native. Either you instantiate a concrete sub-class, either you instantiate the abstract class by implementing its abstract methods alongside a new statement:
+doc=2593 score=0.83716816 shardIndex=-1

@@ -1,0 +1,53 @@
+Head First Java MAIN difference 
+
+
+
+User Interface - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Applets/User_Interface
+The main difference between an applet and a regular command-line executed program is that applets allow for extensible Graphical User Interfaces (GUI).
+doc=3576 score=0.55848163 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+However, the first one's style (with whitespace) is preferred, as the readability is higher. The method body is easier to distinguish from the head, even at a higher reading speed.
+doc=538 score=0.53361917 shardIndex=-1
+
+Understanding a Java Program - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program
+However, the first one's style (with whitespace) is preferred, as the readability is higher. The method body is easier to distinguish from the head, even at a higher reading speed.
+doc=2035 score=0.53361917 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+People who do test-first programming or perform regression testing write a main() method in every Java class, and a main() function in every Python module, to run automated tests. When a person executes the file directly, the main() method executes and runs the automated tests for that file. When a person executes some other Java file that in turn imports many other Java classes, only one main() method is executed -- the main() method of the directly-executed file.
+doc=513 score=0.52384007 shardIndex=-1
+
+Understanding a Java Program - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program
+People who do test-first programming or perform regression testing write a main() method in every Java class, and a main() function in every Python module, to run automated tests. When a person executes the file directly, the main() method executes and runs the automated tests for that file. When a person executes some other Java file that in turn imports many other Java classes, only one main() method is executed -- the main() method of the directly-executed file.
+doc=2010 score=0.52384007 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+An interface is an abstraction of class with no implementation details. For example, java.lang.Comparable is a standard interface in Java. You cannot instantiate an interface. An interface is not a class but it is written the same way. The first difference is that you do not use the class keyword but the interface keyword to define it. Then, there are fields and methods you cannot define here:
+doc=1384 score=0.5135275 shardIndex=-1
+
+Interfaces - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Interfaces
+An interface is an abstraction of class with no implementation details. For example, java.lang.Comparable is a standard interface in Java. You cannot instantiate an interface. An interface is not a class but it is written the same way. The first difference is that you do not use the class keyword but the interface keyword to define it. Then, there are fields and methods you cannot define here:
+doc=2876 score=0.5135275 shardIndex=-1
+
+Exceptions - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Exceptions
+In Java, there are two main flows of code executions.
+doc=3135 score=0.39044714 shardIndex=-1
+
+Object Oriented Programming - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Object_Oriented_Programming
+You now change the Person class to implement this interface. The main thing to notice is that the Person's first and last names are combined on the label.
+doc=1627 score=0.35032958 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The main() method is the main entry point which Java invokes when you start a Java program from the command line. The command
+doc=510 score=0.32210246 shardIndex=-1

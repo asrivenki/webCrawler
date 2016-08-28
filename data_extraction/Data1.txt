@@ -1,0 +1,56 @@
+Extracted Data
+--------------
+implement deep copy  constructors  copy constructor instance single argument accessor methods source instance  copy constructor runtime type  reflection code ArrayList Dynamic array String (computer science)   Long number  Source code
+
+
+Top 10:
+--------
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+A copy constructor is not included in the Java language, however one can easily create a constructor that do the same as a copy constructor. It's important to understand what it is. As the name implies, a copy constructor creates a new instance to be a duplicate of an already existing one. In Java, this can be also accomplished by creating the instance with the default constructor, and then using the assignment operator to equivocate them. This is not possible in all languages though, so just keep the terminology under your belt.
+doc=922 score=0.37782744 shardIndex=-1
+
+Classes, Objects and Types - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+A copy constructor is not included in the Java language, however one can easily create a constructor that do the same as a copy constructor. It's important to understand what it is. As the name implies, a copy constructor creates a new instance to be a duplicate of an already existing one. In Java, this can be also accomplished by creating the instance with the default constructor, and then using the assignment operator to equivocate them. This is not possible in all languages though, so just keep the terminology under your belt.
+doc=2416 score=0.37782744 shardIndex=-1
+
+Reflection Overview - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview
+However, the main Java runtime does not know about the Distance class. The name of the class to execute is a runtime value. Reflection allows a Java program to work with classes even though the classes are not known when the program was written. Let's explore what the invokeMain method is doing. The first statement at line 9 is an example of dynamic class loading. The forName() method will load a Java class and return an instance of java.lang.Class that results from loading the class. In this case, we are loading the class "Distance" from the default package. We store the class object in the local variable distanceClass; its type is Class<?>. The second statement at line 10 simply creates a String array with the four command line arguments we wish to pass to the main method of the Distance class. The third statement at line 11 performs a reflection operation on the Distance class. The getMethod() method is defined for the Class class. It takes a variable number of parameters: the method name is the first parameter and the remaining parameters are the types of each of main's parameters. The method name is trivial: we want to invoke the main method, so we pass in the name "main". We then add a Class variable for each of the method parameters. main accepts one parameter (String[] args) so we add a single Class element representing the String[]. The getMethod method has a return type of java.lang.reflect.Method; we store the result in a local variable named mainMethod. Finally, we invoke the method by calling the invoke() method of the Method instance. This method's first parameter is the instance to invoke on, and the remaining parameters are for the invokee's parameters. Since we are invoking a static method and not an instance method, we pass null as the instance argument. Since we only have a single parameter we pass it as the second argument. However, we must cast the parameter to Object to indicate that the array is the parameter, and not that the parameters are in the array. See varargs for more details on this.
+doc=3640 score=0.36316618 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+By convention, a constructor that accepts an object of its own type as a parameter and copies the data members is called a copy constructor. One interesting feature of constructors is that if and only if you do not specify a constructor in your class, the compiler will create one for you. This default constructor, if written out would look like:
+doc=1364 score=0.3597833 shardIndex=-1
+
+Defining Classes - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Defining_Classes
+By convention, a constructor that accepts an object of its own type as a parameter and copies the data members is called a copy constructor. One interesting feature of constructors is that if and only if you do not specify a constructor in your class, the compiler will create one for you. This default constructor, if written out would look like:
+doc=2856 score=0.3597833 shardIndex=-1
+
+Reflection Overview - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview
+Reflection is the mechanism by which Java exposes the features of a class during runtime, allowing Java programs to enumerate and access a class' methods, fields, and constructors as objects. In other words, there are object-based mirrors that reflect the Java object model, and you can use these objects to access an object's features using runtime API constructs instead of compile-time language constructs. Each object instance has a getClass() method, inherited from java.lang.Object, which returns an object with the runtime representation of that object's class; this object is an instance of the java.lang.Class, which in turn has methods that return the fields, methods, constructors, superclass, and other properties of that class. You can use these reflection objects to access fields, invoke methods, or instantiate instances, all without having compile-time dependencies on those features. The Java runtime provides the corresponding classes for reflection. Most of the Java classes that support reflection are in the java.lang.reflect package. Reflection is most useful for performing dynamic operations with Java — operations that are not hard-coded into a source program, but that are determined at run time. One of the most important aspects of reflection is dynamic class loading.
+doc=3634 score=0.3530329 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+In general there are four constructor types: default, non-default, copy, and cloning.
+doc=919 score=0.2985289 shardIndex=-1
+
+Classes, Objects and Types - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+In general there are four constructor types: default, non-default, copy, and cloning.
+doc=2413 score=0.2985289 shardIndex=-1
+
+ArrayList - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/ArrayList
+The ArrayList class supports three constructors. The first constructor builds an empty array list.:
+doc=3080 score=0.25763768 shardIndex=-1
+
+Collection - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Collection
+Now each time we add an item to the collection, it is a different instance. All the items evolve separately. To add an object in a collection and avoid this item to be changed each time the source object is changed, you have to copy or clone the object before you add it to the collection.
+doc=3040 score=0.25262293 shardIndex=-1

@@ -1,0 +1,51 @@
+Java classes runtime Dynamic Proxies open-source libraries JRE AOP (Aspect Oriented Programming)  Hibernate ORM Spring AOP AspectJ
+
+Annotations - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Annotations/Introduction
+One of the main forces of adding this feature to Java was the wide spread use of XML descriptors to add additional information, metadata for Java classes. Frameworks like EJB, JSF, Spring, Hibernate were heavily using external XML descriptors. The problem of those external descriptors is that those files are out of reach of the Java compiler and for that reason compiler type checking could not be used. A small spelling mistake bug in a huge XML descriptor file is hard to locate and fixed. The Java annotations on the other hand use the Java compiler type checking features, so annotation names spelling mistakes will be caught by the Java compiler.
+doc=3347 score=0.1730001 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Introduced in 1996 for the Solaris, Windows, Mac OS Classic and Linux, Java was initially released as the Java Development Kit 1.0 (JDK 1.0). This included the Java runtime (the virtual machine and the class libraries), and the development tools (e.g., the Java compiler). Later, Sun also provided a runtime-only package, called the Java Runtime Environment (JRE). The first name stuck, however, so usually people refer to a particular version of Java by its JDK version (e.g., JDK 1.0).
+doc=219 score=0.1441626 shardIndex=-1
+
+History of the Java™ programming language - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/History
+Introduced in 1996 for the Solaris, Windows, Mac OS Classic and Linux, Java was initially released as the Java Development Kit 1.0 (JDK 1.0). This included the Java runtime (the virtual machine and the class libraries), and the development tools (e.g., the Java compiler). Later, Sun also provided a runtime-only package, called the Java Runtime Environment (JRE). The first name stuck, however, so usually people refer to a particular version of Java by its JDK version (e.g., JDK 1.0).
+doc=1715 score=0.1441626 shardIndex=-1
+
+Reflection Overview - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Reflection/Overview
+Reflection is the mechanism by which Java exposes the features of a class during runtime, allowing Java programs to enumerate and access a class' methods, fields, and constructors as objects. In other words, there are object-based mirrors that reflect the Java object model, and you can use these objects to access an object's features using runtime API constructs instead of compile-time language constructs. Each object instance has a getClass() method, inherited from java.lang.Object, which returns an object with the runtime representation of that object's class; this object is an instance of the java.lang.Class, which in turn has methods that return the fields, methods, constructors, superclass, and other properties of that class. You can use these reflection objects to access fields, invoke methods, or instantiate instances, all without having compile-time dependencies on those features. The Java runtime provides the corresponding classes for reflection. Most of the Java classes that support reflection are in the java.lang.reflect package. Reflection is most useful for performing dynamic operations with Java — operations that are not hard-coded into a source program, but that are determined at run time. One of the most important aspects of reflection is dynamic class loading.
+doc=3634 score=0.14110489 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The Java Runtime Environment (JRE) is necessary to execute Java programs. To check which version of Java Runtime Environment (JRE) you have, follow the steps below.
+doc=382 score=0.13445449 shardIndex=-1
+
+Installation - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Installation
+The Java Runtime Environment (JRE) is necessary to execute Java programs. To check which version of Java Runtime Environment (JRE) you have, follow the steps below.
+doc=1878 score=0.13445449 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+It is possible that you have the Java runtime (JRE), but not the JDK. In that case the javac program won't be found, but the java -version will print the JRE version number.
+doc=388 score=0.11615931 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The Java Runtime Environment (JRE) is necessary to execute Java programs. To check which version of JRE you have, follow the steps below.
+doc=399 score=0.11615931 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+It is possible that you have the Java runtime (JRE), but not the JDK. In that case the javac program won't be found, but the java -version will print the JRE version number.
+doc=406 score=0.11615931 shardIndex=-1
+
+Installation - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Installation
+It is possible that you have the Java runtime (JRE), but not the JDK. In that case the javac program won't be found, but the java -version will print the JRE version number.
+doc=1884 score=0.11615931 shardIndex=-1

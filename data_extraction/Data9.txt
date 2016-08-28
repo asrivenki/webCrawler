@@ -1,0 +1,51 @@
+web server objects servlet client information
+
+Java (programming language) - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Java_(programming_language)
+Java Servlet technology provides Web developers with a simple, consistent mechanism for extending the functionality of a Web server and for accessing existing business systems. Servlets are server-side Java EE components that generate responses (typically HTML pages) to requests (typically HTTP requests) from clients. A servlet can almost be thought of as an applet that runs on the server side—without a face.
+doc=133 score=0.85718143 shardIndex=-1
+
+Client Server - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Client_Server
+The following is the client class for the above server:
+doc=3272 score=0.7010546 shardIndex=-1
+
+Java (programming language) - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Java_(programming_language)
+The Hello class extends the GenericServlet class; the GenericServlet class provides the interface for the server to forward requests to the servlet and control the servlet's lifecycle.
+doc=135 score=0.5521968 shardIndex=-1
+
+JavaSpaces - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/JavaSpaces
+The lookup service is described in the : Jini Lookup Service Specification (reggie). This service interface defines all operations that are possible on the lookup service. Clients locate services by requesting with a lookup server that implements a particular interface. Client asks the lookup server for all services that implement the particular service interface. The lookup service returns service objects for all registered services that implement the given interface. The client may invoke methods on that object in order to interact directly with the server.
+doc=3310 score=0.5452724 shardIndex=-1
+
+Client Server - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Client_Server
+A client code for a server/service is usually an API that a user application uses to interface to the server. With the help of a client API the user application does not have to know how to connect to the server to get services.
+doc=3271 score=0.47285834 shardIndex=-1
+
+Java Programming/Q&A - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Q%26A
+If you need to call methods between different language environments, use CORBA. With CORBA a Java client can call C++ server and/or a C++ client can call a Java server. With RMI that can not be done.
+doc=18 score=0.42490318 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Platform independent Java is, however, very successful with server side applications, such as web services, servlets, or Enterprise JavaBeans.
+doc=261 score=0.4119218 shardIndex=-1
+
+Overview - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Java_Overview
+Platform independent Java is, however, very successful with server side applications, such as web services, servlets, or Enterprise JavaBeans.
+doc=1757 score=0.4119218 shardIndex=-1
+
+Remote Method Invocation - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Remote_Method_Invocation
+The remote method invocation goes through a STUB on the client side and a so called SKELETON on the server side.
+doc=3279 score=0.40060258 shardIndex=-1
+
+Remote Method Invocation - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Remote_Method_Invocation
+RMI is defined to use only with the Java platform. If you need to call methods between different language environments, use CORBA. With CORBA a Java client can call C++ server and/or a C++ client can call a Java server. With RMI that can not be done.
+doc=3278 score=0.35408598 shardIndex=-1

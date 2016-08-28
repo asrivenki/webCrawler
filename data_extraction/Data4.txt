@@ -1,0 +1,51 @@
+Polymorphism Inheritance code reuse dynamic languages base class interface Javascript  object polymorphically
+
+Object Oriented Programming - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Object_Oriented_Programming
+However, the delegate can change over time, whereas base classes cannot. As a result, sometimes delegation is referred to as "dynamic inheritance".
+doc=1612 score=0.3487726 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The inheritance is one of the most powerful mechanism of the Object Oriented Programming. It allows the reuse of the members of a class (called the superclass or the mother class) in another class (called subclass, child class or the derived class) that inherits from it. This way, classes can be built by successive inheritance.
+doc=1372 score=0.34283745 shardIndex=-1
+
+Inheritance - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Inheritance
+The inheritance is one of the most powerful mechanism of the Object Oriented Programming. It allows the reuse of the members of a class (called the superclass or the mother class) in another class (called subclass, child class or the derived class) that inherits from it. This way, classes can be built by successive inheritance.
+doc=2864 score=0.34283745 shardIndex=-1
+
+Object Oriented Programming - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Object_Oriented_Programming
+A normal issue in dealing with inheritance in large programs is called Fragile Base Class. It arises when subclasses of the base class make assumptions about the property (the definition of the attribute) that are outside the contract provided by the base class.
+doc=1619 score=0.2648994 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+You can also have this interest using a common super class but a class can only inherit from one super class whereas it can implement several interfaces. Java does not support full orthogonal multiple inheritance. Java does not allow you to create a subclass from two classes. Multiple inheritance in C++ has complicated rules to disambiguate fields and methods inherited from multiple superclasses and types inherited multiple times. By separating interface from implementation, interfaces offer much of the benefit of multiple inheritance with less complexity and ambiguity. The price of no multiple inheritance is some code redundancy; since interfaces only define the signature of a class but cannot contain any implementation, every class inheriting an interface must provide the implementation of the defined methods, unlike in pure multiple inheritance, where the implementation is also inherited. The major benefit of that is that all Java objects can have a common ancestor. That class is called Object. When overriding methods defined in interfaces there are several rules to be followed:
+doc=1390 score=0.23608302 shardIndex=-1
+
+Interfaces - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Interfaces
+You can also have this interest using a common super class but a class can only inherit from one super class whereas it can implement several interfaces. Java does not support full orthogonal multiple inheritance. Java does not allow you to create a subclass from two classes. Multiple inheritance in C++ has complicated rules to disambiguate fields and methods inherited from multiple superclasses and types inherited multiple times. By separating interface from implementation, interfaces offer much of the benefit of multiple inheritance with less complexity and ambiguity. The price of no multiple inheritance is some code redundancy; since interfaces only define the signature of a class but cannot contain any implementation, every class inheriting an interface must provide the implementation of the defined methods, unlike in pure multiple inheritance, where the implementation is also inherited. The major benefit of that is that all Java objects can have a common ancestor. That class is called Object. When overriding methods defined in interfaces there are several rules to be followed:
+doc=2882 score=0.23608302 shardIndex=-1
+
+Dynamic Class Loading - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Reflection/Dynamic_Class_Loading
+Executing code from a Class instance is explained in the Dynamic Invocation chapter.
+doc=3648 score=0.22984396 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Some programmers also complain about its lack of multiple inheritance, a powerful feature of several object-oriented languages, among others C++. The Java language separates inheritance of type and implementation, allowing inheritance of multiple type definitions through interfaces, but only single inheritance of type implementation via class hierarchies. This allows most of the benefits of multiple inheritance while avoiding many of its dangers. In addition, through the use of concrete classes, abstract classes, as well as interfaces, a Java language programmer has the option of choosing full, partial, or zero implementation for the object type he defines, thus ensuring maximum flexibility in application design.
+doc=282 score=0.22290991 shardIndex=-1
+
+Overview - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Java_Overview
+Some programmers also complain about its lack of multiple inheritance, a powerful feature of several object-oriented languages, among others C++. The Java language separates inheritance of type and implementation, allowing inheritance of multiple type definitions through interfaces, but only single inheritance of type implementation via class hierarchies. This allows most of the benefits of multiple inheritance while avoiding many of its dangers. In addition, through the use of concrete classes, abstract classes, as well as interfaces, a Java language programmer has the option of choosing full, partial, or zero implementation for the object type he defines, thus ensuring maximum flexibility in application design.
+doc=1778 score=0.22290991 shardIndex=-1
+
+ArrayList - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/ArrayList
+The ArrayList class extends AbstractList and implements the List interface. ArrayList supports dynamic arrays that can grow as needed.
+doc=3077 score=0.21758166 shardIndex=-1

@@ -1,0 +1,51 @@
+serialize object deserialize new reference classes override serialization new instances singletons classes Serializable.
+
+Object Oriented Programming - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Object_Oriented_Programming
+At least in Java, a constructor is unable to return a reference to an existing object—it MUST return a brand-new object. This can cause two problems—too many object instances, and identical objects that are duplicates—not the exact same object.
+doc=1633 score=0.37190253 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The java.lang.Object.clone() method returns a new object that is a copy of the current object. Classes must implement the marker interface java.lang.Cloneable to indicate that they can be cloned.
+doc=942 score=0.31444037 shardIndex=-1
+
+Classes, Objects and Types - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+The java.lang.Object.clone() method returns a new object that is a copy of the current object. Classes must implement the marker interface java.lang.Cloneable to indicate that they can be cloned.
+doc=2436 score=0.31444037 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Anonymous classes are most useful to create an instance of an interface or adapter class without needing a brand new class.
+doc=1485 score=0.23419139 shardIndex=-1
+
+Nested Classes - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Nested_Classes
+Anonymous classes are most useful to create an instance of an interface or adapter class without needing a brand new class.
+doc=2978 score=0.23419139 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Java has built-in support for serialization, using the Serializable interface; however, a class must first implement the Serializable interface.
+doc=1445 score=0.2012517 shardIndex=-1
+
+Object Lifecycle - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle
+Java has built-in support for serialization, using the Serializable interface; however, a class must first implement the Serializable interface.
+doc=2938 score=0.2012517 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+The name has not changed because the method has changed the reference and not the object itself. The behavior is the same as if the method was in-lined and the parameters were assigned to new variable names:
+doc=858 score=0.1992179 shardIndex=-1
+
+Methods - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Methods
+The name has not changed because the method has changed the reference and not the object itself. The behavior is the same as if the method was in-lined and the parameters were assigned to new variable names:
+doc=2353 score=0.1992179 shardIndex=-1
+
+Object Oriented Programming - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Object_Oriented_Programming
+Factories can also be used to inject user code into an "Unmodifiable" library. It is possible to save and restore a user object that implements some important functions of a library object. The library then uses that factory to get instances of the users object, and doesn't even know that the user has replaced a core component with completely new code.
+doc=1636 score=0.19712669 shardIndex=-1

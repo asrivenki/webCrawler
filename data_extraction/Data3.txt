@@ -1,0 +1,51 @@
+Inheritance 'class'  Person  fields methods private fields subclasses Polymorphism runtime javascript
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+A best practice is to give fields private access and reserve public access to only the set of methods and final fields that define the class' public constants. This helps with encapsulation and information hiding, since it allows you to change the implementation of a class without affecting the consumers who use only the public API of the class.
+doc=1133 score=0.5002514 shardIndex=-1
+
+Keywords - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Keywords
+A best practice is to give fields private access and reserve public access to only the set of methods and final fields that define the class' public constants. This helps with encapsulation and information hiding, since it allows you to change the implementation of a class without affecting the consumers who use only the public API of the class.
+doc=2757 score=0.5002514 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+Below is an example of an immutable public class named Length which maintains private instance fields named units and magnitude but provides a public constructor and two public accessor methods.
+doc=1134 score=0.47400886 shardIndex=-1
+
+Keywords - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Keywords
+Below is an example of an immutable public class named Length which maintains private instance fields named units and magnitude but provides a public constructor and two public accessor methods.
+doc=2758 score=0.47400886 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+By default, a class will have all of its fields serialized when converted into a data stream (with transient fields being skipped). If additional handling is required beyond the default of writing all fields, you need to provide an implementation for methods:
+doc=1446 score=0.41026142 shardIndex=-1
+
+Object Lifecycle - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle
+By default, a class will have all of its fields serialized when converted into a data stream (with transient fields being skipped). If additional handling is required beyond the default of writing all fields, you need to provide an implementation for methods:
+doc=2939 score=0.41026142 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+This method is private since, like the fields point0 and point1, it is part of the internal implementation of the class and is not part of the external programming interface of the Distance class.
+doc=515 score=0.39244503 shardIndex=-1
+
+Understanding a Java Program - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Understanding_a_Java_Program
+This method is private since, like the fields point0 and point1, it is part of the internal implementation of the class and is not part of the external programming interface of the Distance class.
+doc=2012 score=0.39244503 shardIndex=-1
+
+Java Programming/Print version - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Print_version
+List the fields and methods of this class that can be renamed without changing or even knowing the client classes.
+doc=1469 score=0.3665893 shardIndex=-1
+
+Scope - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Java_Programming/Scope
+List the fields and methods of this class that can be renamed without changing or even knowing the client classes.
+doc=2963 score=0.3665893 shardIndex=-1
